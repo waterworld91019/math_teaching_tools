@@ -78,6 +78,11 @@ The intended workflow is:
 4. Generate final teaching material with the Word, PowerPoint, and image tools
    in this repository.
 
+Local/private source material can be kept under
+`private_data/problem_bank_sources/`. That folder is intentionally ignored by
+git because raw problem-bank PDFs, archives, Word files, and generated images
+may be private or copyrighted teaching material.
+
 ## Project Status
 
 Prototype. The scripts are useful for classroom workflow experiments, but they

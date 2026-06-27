@@ -14,6 +14,10 @@ env/
 output/
 dist/
 build/
+
+# Local/private teaching source data
+private_data/
+
 *.docx
 *.pptx
 *.pdf
