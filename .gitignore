@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated teaching materials
+output/
+dist/
+build/
+*.docx
+*.pptx
+*.pdf
+
+# Large local installers or media exports
+*.msi
+*.gif
+*.jpg
+*.jpeg
+*.png
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
