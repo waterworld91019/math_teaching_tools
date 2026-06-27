@@ -15,6 +15,7 @@ and installers.
 | `src/math_teaching_tools/ppt_to_word.py` | Extract text from a PowerPoint file into a Word document. |
 | `src/math_teaching_tools/sample_presentation.py` | Generate a small sample PowerPoint deck. |
 | `src/math_teaching_tools/plot_3d_planes.py` | Show a small 3D math visualization demo. |
+| `src/math_teaching_tools/problem_bank_index.py` | Build JSON/CSV indexes from converted problem-bank Markdown folders. |
 
 ## Install
 
@@ -59,6 +60,23 @@ Show the 3D plot demo:
 ```sh
 python src/math_teaching_tools/plot_3d_planes.py
 ```
+
+Index a converted problem-bank folder:
+
+```sh
+python src/math_teaching_tools/problem_bank_index.py converted_problem_bank output/problem_bank_index.json --csv-output output/problem_bank_index.csv
+```
+
+## Tutor Material Workflow
+
+The intended workflow is:
+
+1. Convert problem-bank PDFs into Markdown, metadata, and image folders.
+2. Run `problem_bank_index.py` to create a searchable index.
+3. Use the index to decide which problems belong in lesson notes, worksheets,
+   error books, or `teaching.json` resources for a tutoring LINE bot.
+4. Generate final teaching material with the Word, PowerPoint, and image tools
+   in this repository.
 
 ## Project Status
 
