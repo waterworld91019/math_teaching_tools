@@ -83,6 +83,13 @@ Local/private source material can be kept under
 git because raw problem-bank PDFs, archives, Word files, and generated images
 may be private or copyrighted teaching material.
 
+Current private problem-bank sources include:
+
+- `private_data/problem_bank_sources/auto_problem_bank_classification/`: source
+  materials from the earlier automatic problem-bank classification project.
+- `private_data/problem_bank_sources/wlsh_exam_questions/`: WLSH exam/question
+  files moved out of the row 41 TXF legacy project on 2026-06-28.
+
 ## Project Status
 
 Prototype. The scripts are useful for classroom workflow experiments, but they
